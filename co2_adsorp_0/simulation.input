@@ -1,0 +1,54 @@
+SimulationType                MonteCarlo
+NumberOfCycles                100000
+NumberOfInitializationCycles  50000
+PrintEvery                    1000
+
+Forcefield                    UFF
+CutOff                        12.0
+
+Framework 0
+FrameworkName                 MOF-177
+UnitCells                     2 2 1
+ExternalTemperature           298.0
+ExternalPressure              1.0
+EwaldSumPrecision             1e-6
+UseChargesFromCIF             yes
+
+Component 0 MoleculeName      CO2
+  MoleculeDefinition          TraPPE
+  TranslationProbability      1.0
+  RotationProbability         1.0
+  ReinsertionProbability      1.0
+  SwapProbability             1.0
+  FugacityCoefficient         1.0
+  Fugacity                    0.0004        # 400 ppm CO2
+
+Component 1 MoleculeName      N2
+  MoleculeDefinition          TraPPE
+  TranslationProbability      1.0
+  RotationProbability         1.0
+  ReinsertionProbability      1.0
+  SwapProbability             1.0
+  FugacityCoefficient         1.0
+  Fugacity                    0.7808        # Air composition
+
+Component 2 MoleculeName      O2
+  MoleculeDefinition          TraPPE
+  TranslationProbability      1.0
+  RotationProbability         1.0
+  ReinsertionProbability      1.0
+  SwapProbability             1.0
+  FugacityCoefficient         1.0
+  Fugacity                    0.2188        # Air composition
+
+Component 3 MoleculeName      SPC-E
+  MoleculeDefinition          MoleculeDefinitions
+  TranslationProbability      1.0
+  RotationProbability         1.0
+  ReinsertionProbability      1.0
+  SwapProbability             1.0
+  FugacityCoefficient         1.0
+  Fugacity                    0       	    # 0% RH at 298 K
+
+# Place your CIF file at:
+# RASPA/Structures/cif/MOF177/mof177_charged.cif
