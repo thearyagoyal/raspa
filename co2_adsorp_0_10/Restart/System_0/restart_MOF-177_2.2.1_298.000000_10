@@ -1,0 +1,91 @@
+Cell info:
+========================================================================
+number-of-unit-cells: 2 2 1
+unit-cell-vector-a:    37.072000000000     0.000000000000     0.000000000000
+unit-cell-vector-b:   -18.536000000000    32.105293769097     0.000000000000
+unit-cell-vector-c:     0.000000000000     0.000000000000    30.033300000000
+
+cell-vector-a:    74.144000000000     0.000000000000     0.000000000000
+cell-vector-b:   -37.072000000000    64.210587538193     0.000000000000
+cell-vector-c:     0.000000000000     0.000000000000    30.033300000000
+
+cell-lengths:    37.072000000000    37.072000000000    30.033300000000
+cell-angles:    90.000000000000    90.000000000000   120.000000000000
+
+
+Maximum changes for MC-moves:
+========================================================================
+Maximum-volume-change: 0.000500
+Maximum-Gibbs-volume-change: 0.000500
+Maximum-box-shape-change: 0.100000 0.100000 0.100000, 0.100000 0.100000 0.100000, 0.100000 0.100000 0.100000
+
+
+Acceptance targets for MC-moves:
+========================================================================
+Target-volume-change: 0.500000
+Target-box-shape-change: 0.500000
+Target-Gibbs-volume-change: 0.500000
+
+
+Components: 4 (Adsorbates 0, Cations 0)
+========================================================================
+Component 0 (CO2)
+	Fractional-molecule-id component 0: -1
+	Lambda-factors component 0:  0.000000 0.000000 0.000000
+	Number-of-biasing-factors component 0: 21
+	Biasing-factors component 0:  0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+	Maximum-CF-Lambda-change component 0: 0.500000
+	Maximum-CBCF-Lambda-change component 0: 0.500000
+
+	Maximum-translation-change component 0: 1.000000,1.000000,0.937500
+	Maximum-translation-in-plane-change component 0: 0.000000,0.000000,0.000000
+	Maximum-rotation-change component 0: 2.792527 2.611194 2.692794
+Component 1 (N2)
+	Fractional-molecule-id component 1: -1
+	Lambda-factors component 1:  0.000000 0.000000 0.000000
+	Number-of-biasing-factors component 1: 21
+	Biasing-factors component 1:  0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+	Maximum-CF-Lambda-change component 1: 0.500000
+	Maximum-CBCF-Lambda-change component 1: 0.500000
+
+	Maximum-translation-change component 1: 0.421875,0.316406,1.000000
+	Maximum-translation-in-plane-change component 1: 0.000000,0.000000,0.000000
+	Maximum-rotation-change component 1: 3.141593 0.503222 3.141593
+Component 2 (O2)
+	Fractional-molecule-id component 2: -1
+	Lambda-factors component 2:  0.000000 0.000000 0.000000
+	Number-of-biasing-factors component 2: 21
+	Biasing-factors component 2:  0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+	Maximum-CF-Lambda-change component 2: 0.500000
+	Maximum-CBCF-Lambda-change component 2: 0.500000
+
+	Maximum-translation-change component 2: 0.316406,0.750000,0.050625
+	Maximum-translation-in-plane-change component 2: 0.000000,0.000000,0.000000
+	Maximum-rotation-change component 2: 3.141593 2.518953 0.994020
+Component 3 (SPC-E)
+	Fractional-molecule-id component 3: -1
+	Lambda-factors component 3:  0.000000 0.000000 0.000000
+	Number-of-biasing-factors component 3: 21
+	Biasing-factors component 3:  0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+	Maximum-CF-Lambda-change component 3: 0.500000
+	Maximum-CBCF-Lambda-change component 3: 0.500000
+
+	Maximum-translation-change component 3: 0.095029,0.033750,0.017818
+	Maximum-translation-in-plane-change component 3: 0.000000,0.000000,0.000000
+	Maximum-rotation-change component 3: 0.058905 0.026239 0.029452
+
+Reactions: 0
+
+Component: 0     Adsorbate    0 molecules of CO2
+------------------------------------------------------------------------
+
+Component: 1     Adsorbate    0 molecules of N2
+------------------------------------------------------------------------
+
+Component: 2     Adsorbate    0 molecules of O2
+------------------------------------------------------------------------
+
+Component: 3     Adsorbate    0 molecules of SPC-E
+------------------------------------------------------------------------
+
+
